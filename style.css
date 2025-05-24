@@ -1,6 +1,6 @@
 body {
     background-color: #0f0f1a;
-    color: #f8f8f8;
+    color: #f1f1f1;
     font-family: 'Segoe UI', sans-serif;
   }
   
@@ -13,6 +13,7 @@ body {
     background-color: transparent;
     border: 1px solid #00ffff;
     color: #00ffff;
+    transition: all 0.3s ease;
   }
   
   .btn-neon:hover {
@@ -23,11 +24,46 @@ body {
   .form-control,
   .table {
     background-color: #1c1c2c;
-    color: #f8f8f8;
+    color: #ffffff;
+    border: 1px solid #444;
+  }
+  
+  .form-control::placeholder {
+    color: #aaa;
+  }
+  
+  .form-control:focus {
+    border-color: #00ffff;
+    box-shadow: 0 0 5px #00ffff;
+    background-color: #1e1e2d;
+    color: #ffffff;
   }
   
   .table th,
   .table td {
     vertical-align: middle;
+  }
+  
+  .table thead {
+    background-color: #232332;
+    color: #00ffff;
+  }
+  
+  header p {
+    color: #00ffff !important;
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-shadow: none !important;
+    margin-bottom: 0;
+    opacity: 1;
+  }
+  
+  
+  footer p {
+    color: #00ffff;
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-shadow: none;
+    margin-bottom: 0;
   }
   
