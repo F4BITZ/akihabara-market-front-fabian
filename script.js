@@ -14,13 +14,12 @@ function cargarProductos() {
             <td>${p.categoria}</td>
             <td>${p.precio}</td>
             <td>${p.stock}</td>
-            <td>
-                <div class="d-flex justify-content-center gap-2">
-                    <button class="btn btn-sm btn-info text-dark fw-semibold" onclick='editar(${JSON.stringify(p)})'>Editar</button>
-                    <button class="btn btn-sm btn-danger" onclick='borrar(${p.id})'>Eliminar</button>
+            <td class="text-center align-middle">
+                <div class="d-flex flex-column gap-1">
+                    <button class="btn btn-sm btn-info text-dark fw-semibold">Editar</button>
+                    <button class="btn btn-sm btn-danger">Eliminar</button>
                 </div>
             </td>
-
 
           </tr>`;
             });
