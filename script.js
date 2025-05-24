@@ -14,7 +14,7 @@ function cargarProductos() {
             <td>${p.categoria}</td>
             <td>${p.precio}</td>
             <td>${p.stock}</td>
-            <td class="text-center align-middle">
+            <td>
                 <div class="d-flex justify-content-center gap-2">
                     <button class="btn btn-sm btn-info text-dark fw-semibold" onclick='editar(${JSON.stringify(p)})'>Editar</button>
                     <button class="btn btn-sm btn-danger" onclick='borrar(${p.id})'>Eliminar</button>
