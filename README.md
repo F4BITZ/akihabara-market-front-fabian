@@ -1,6 +1,7 @@
 # 🖥️ Frontend - Akihabara Market
 
-Interfaz web minimalista estilo **neón otaku** para gestionar productos de la tienda ficticia Akihabara Market. Desarrollado en HTML, CSS (Bootstrap + custom) y JavaScript puro, este frontend consume una API REST desplegada en Render.
+Interfaz web minimalista, con estética neón otaku, para gestionar productos de una **tienda demo** llamada **Akihabara Market**.  
+Desarrollado con **HTML, CSS (Bootstrap + estilos personalizados)** y **JavaScript puro**, este frontend consume una API REST desplegada en Render.
 
 ---
 
@@ -15,33 +16,33 @@ Backend consumido desde:
 
 ## 🚀 Tecnologías utilizadas
 
-- HTML5 y CSS3
-- Bootstrap 5
-- JavaScript vanilla (sin frameworks)
-- GitHub Pages (hosting del frontend)
-- Spring Boot (en backend - API REST)
+- **HTML5** y **CSS3**
+- **Bootstrap 5**
+- **JavaScript vanilla** (sin frameworks)
+- **GitHub Pages** (para el despliegue del frontend)
+- **Spring Boot** (en el backend - API REST)
 
 ---
 
-## 🧪 Funcionalidades
+## 🧪 Funcionalidades principales
 
 - Listar productos del inventario
 - Crear nuevos productos
 - Editar productos existentes
 - Eliminar productos
-- Validación de formularios en tiempo real (coherente con backend)
+- Validación de formularios en tiempo real (coherente con las reglas del backend)
 
 ---
 
-## 🎨 Estilo
+## 🎨 Estilo visual
 
-- Paleta: fondo oscuro con detalles en **cian neón**
-- Estética inspirada en la cultura otaku y futurismo japonés
-- Diseño responsivo y accesible
+- Paleta de colores: fondo oscuro con detalles en cian neón
+- Inspiración estética: cultura otaku y futurismo japonés
+- Diseño responsivo y accesible desde móviles y escritorio
 
 ---
 
-## 🛠 Cómo usar localmente
+## 🛠 Cómo usarlo localmente
 
 1. Clona el repositorio:
 
